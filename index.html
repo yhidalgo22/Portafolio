@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@400;500;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Imagenes/Vector.svg" alt="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contenedor-texto">
+                <textarea placeholder="Ingrese Texto aquí" class="cajatexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Imagenes/Vector alerta.svg" alt="alerta">
+                <p>Solo letras minúsculas y sin acento</p>
+            </div>
+            <div class="contenedor-botones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedor-muneco">
+                <img src="Imagenes/muneco.png" alt="muneco">
+            </div>
+            <div class="contenedor-parrafo">
+                <h3>Ningún mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que deseas encriptar ó <br> desencriptar</p>
+            </div>
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="contenedor-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="seccion3">
+            <h3 class="name">Hidalgo Corro, Yasser</h3>
+            <p class="grado">Estudiante Programa ONE - Grupo 5</p>
+            <p class="cpy">© Copyrigth 2023</p>
+        </section>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
